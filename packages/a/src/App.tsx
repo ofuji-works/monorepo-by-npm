@@ -1,7 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
+import { Button } from "@ui";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Button onClick={() => console.debug("test")} />
     </div>
   );
 }
